@@ -1,0 +1,106 @@
+.worklist {
+  margin: 0;
+  padding: 0 0 0px 0;
+  width: 90vw;
+  max-width: 400px;
+  align-self: stretch;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.worklist__img {
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  background-color: #fff;
+}
+@media screen and (max-width: 1440px) and (min-width: 1301px) {
+  .worklist {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 1300px) and (min-width: 950px) {
+  .worklist {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 949px) {
+  .worklist {
+    width: 100%;
+    max-width: 100%;
+  }
+  .worklist__img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.worklist__text-box {
+  padding: 10px;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+.worklist__title {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.worklist__subtitle {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.worklist__button-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #1e90ff;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.worklist__button {
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  color: #fff;
+  border: #1e90ff solid 1.5px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.worklist__button:hover {
+  cursor: pointer;
+  color: #66dddd;
+  border: #66dddd solid 1px;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: #1e90ff;
+}
+
+.link:hover {
+  color: #66dddd;
+  text-decoration: underline dashed;
+}
+
+.hidden {
+  display: none;
+}

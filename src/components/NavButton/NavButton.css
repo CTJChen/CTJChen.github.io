@@ -1,0 +1,15 @@
+.navButton {
+  position: fixed;
+  top: 150px;
+  right: 3%;
+  z-index: 2;
+  color: #fff;
+  background-color: rgba(40, 44, 52, 0.5);
+}
+
+.navButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  border: solid #66cdaa 1px;
+  padding: 2px;
+}

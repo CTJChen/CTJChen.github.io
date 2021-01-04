@@ -1,0 +1,68 @@
+.works {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.works__title {
+  font-family: "Playball";
+  margin: 30px 0 0 0;
+  padding: 0;
+  font-size: 50px;
+  text-align: left;
+}
+.works__subtitle {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+}
+.works__list {
+  margin: 70px 0 0 0;
+  padding: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media screen and (max-width: 1300px) and (min-width: 950px) {
+  .works__list {
+    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 949px) {
+  .works__list {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.works__button-link {
+  text-decoration: none;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.works__button {
+  margin-left: calc(50% - 100px);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  border: solid #fff 0.5px;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  padding: 5px;
+}
+.works__button:hover {
+  cursor: pointer;
+  color: #66cdaa;
+  border: #66cdaa solid 1px;
+  border-radius: 10px;
+}
