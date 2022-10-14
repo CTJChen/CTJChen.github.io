@@ -12,7 +12,7 @@ export default function News() {
                         <p className="news__text">In U.S. Space & Rocket Center interview, Joseph talks with Dr. Chien-Ting Chen from NASA-MARSHALL about supermassive black holes, how they impact the galaxies they're in and what happens when you don't ask questions.</p>
                     </div>
                     <div className="news__player-box">
-                        <ReactPlayer className="news__player" width="100%" height="60%" url="https://www.youtube.com/watch?v=TiKltavBz1U" />
+                        <ReactPlayer className="news__player" width="60%" height="36%" url="https://www.youtube.com/watch?v=TiKltavBz1U" />
                     </div>
                 </li>
                 <li className="news__list news__list_flex">
